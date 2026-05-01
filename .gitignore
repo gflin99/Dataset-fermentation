@@ -1,0 +1,22 @@
+# 忽略 Dataset-fermentation 資料夾下的所有內容
+Dataset-fermentation/
+
+# 但「不要」忽略這一個說明檔
+!Dataset-fermentation/README.md
+
+# 忽略所有 CSV 與 Excel 原始數據
+*.csv
+*.xlsx
+*.xls
+
+# 忽略 Python 產生的數據模型與張量檔案
+*.npy
+*.h5
+*.pkl
+*.model
+
+# 忽略虛擬環境與系統快取 (避免專案變亂)
+__pycache__/
+.venv/
+.ipynb_checkpoints/
+.DS_Store
